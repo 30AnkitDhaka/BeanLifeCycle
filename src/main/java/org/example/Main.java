@@ -20,7 +20,9 @@ public class Main {
          5Th step -->  Bean Defination is ready;
          6Th Step -->  Bean Creation
          7th Step -->  Dependancy Injection
-         8Th Step -->  Aware Interface function callback
+         8Th Step -->  Aware Interface function callback--> there are three ways {
+                                                         1st -> implement Aware interface like BeanNameAware,ApplicationContextAware
+
          9t Step  -->  Initialization call back
          10th Step --> now we use our  object method and properties;
 
