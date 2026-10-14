@@ -28,6 +28,6 @@ public class OrderService implements ApplicationContextAware , BeanNameAware {
     public void setBeanName(String name) {
         System.out.println( "bean name from aware interface "+name);
 
-
+        System.out.print("this is from the aware interface");
     }
 }
